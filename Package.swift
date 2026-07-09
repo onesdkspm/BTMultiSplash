@@ -11,7 +11,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/onesdkspm/BTSDKUIKitCore.git", branch: "develop"),
+        .package(url: "https://github.com/onesdkspm/BTSDKUIKitCore.git", from: "2.0.3"),
     ],
     targets: [
         // ========== Wrapper Target（统一管理系统依赖）==========
@@ -33,8 +33,8 @@ let package = Package(
         // ========== Binary Frameworks ==========
         .binaryTarget(
             name: "BTMultiSplash",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/BTMultiSplash/2.0.2-dev-1480311/BTMultiSplash.xcframework.zip",
-            checksum: "828575afc3ec36ecb37704e580d0a92c546a2ca041ddbed951ba03e4b4014518"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/BTMultiSplash/2.0.3-dev-1482564/BTMultiSplash.xcframework.zip",
+            checksum: "a9619047049a281dc8de1c23b1b91ac8d3cef04ac10ae9e75bc5b4cdafa9da3d"
         )
     ]
 )
